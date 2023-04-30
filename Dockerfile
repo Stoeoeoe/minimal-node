@@ -1,5 +1,5 @@
 # We reduced many lines of code to set up NodeJS by abstracting all of it into a base image
-FROM YOUR_DOCKER_HUB/slow-node-base:latest
+FROM node:13
 
 # Create app directory
 WORKDIR /usr/src/app
